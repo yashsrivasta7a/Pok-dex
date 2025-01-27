@@ -1,5 +1,10 @@
-*{
-    background-color: black;
-    padding: 0px;
-    margin: 0px;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to top left, #97010e 50%, #fff 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
