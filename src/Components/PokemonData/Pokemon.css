@@ -1,9 +1,38 @@
-.pokemon-card {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(253, 248, 248);
- 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://wallpapercave.com/wp/wp11203751.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+input {
+    padding: 12px;
+    font-size: 1em;
+    width: 280px;
+    border: 3px solid #ffcb05;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pokemon-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
