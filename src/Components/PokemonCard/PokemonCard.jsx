@@ -3,7 +3,6 @@ import './PokemonCard.css';
 
 function PokemonCard({ pokemonData }) {
   const primaryType = pokemonData.types[0].type.name;
-
   const getColor = (type) => {
     switch (type) {
       case 'fire':
